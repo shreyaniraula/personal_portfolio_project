@@ -1,0 +1,148 @@
+* {
+    background-color: #080808;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    width: 15%;
+    height: 7%;
+}
+
+#navbar {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border:5px solid white;
+}
+
+#nav_list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.outer_div {
+    margin-top: 6%;
+    min-height: 90%;
+    border:5px solid blue;
+}
+
+#buttons {
+    list-style-type: none;
+    display: flex;
+    align-items: start;
+    padding-left: 0;
+}
+
+.round_buttons {
+    margin: 0;
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.body_content {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0.4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border:5px solid yellow;
+    /* background-color: red; */
+    /* min-height: 100%; */
+}
+
+h1 {
+    font-size: 75;
+}
+
+h3 {
+    font-size: 50;
+}
+
+/* About Me */
+#profile_image_second {
+    width: 35%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 40%;
+    column-gap: 40%;
+    border:5px solid purple;
+}
+
+span {
+    color: orange;
+}
+
+/* Projects */
+.project_image {
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+}
+
+.project_text {
+    width: 50%;
+    border: 5px solid red;
+}
+
+/* Contact */
+form {
+    width: 100%;
+    margin: 1% 5%;
+}
+
+.form_fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid violet;
+}
+
+.form_inputs {
+    width: 50%;
+    padding-right: 5.5%;
+    border: 5px solid oldlace;
+}
+
+/* Subject ko height increase vako xaina */
+input,
+textarea {
+    padding: 20px;
+    width: 90%;
+    background-color: aqua;
+}
+
+/* Button decorate vako xaina */
+button {
+    background-color: orange;
+    font-size: 25px;
+    width: 20%;
+    padding: 1.5%;
+    border-radius: 35px;
+    float: right;
+    margin-right: 10%;
+}
+
+/* Same page link vako xaina */
